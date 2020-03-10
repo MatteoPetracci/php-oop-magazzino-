@@ -23,5 +23,4 @@
 
   $lavatrice = new Elettrodomestici ('Samsung', '122 kWh/annum', 599, 'nero');
   var_dump($lavatrice);
-  echo $lavatrice->gePrice();
 ?>

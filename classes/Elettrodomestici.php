@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/../traits/NazioneProvenienza.php';
   class Elettrodomestici {
     public $marca;
     public $consumo;
@@ -16,6 +17,8 @@
       $this->consumo = $consumo;
       $this->prezzo = $prezzo;
       $this->colore = $colore;
+      // $this->acquirenti = $acquirenti;
+
     }
     public function nomePagante() {
       return $this->acquirenti;

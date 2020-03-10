@@ -1,6 +1,6 @@
 <?php
 
-  require 'Elettrodomestici.php';
+  require_once __DIR__ . '/Elettrodomestici.php';
 
   class Lavatrice extends Elettrodomestici
   {
@@ -21,10 +21,6 @@
 
 
 
-  $lavasciuga2 = new Lavatrice('Bosch', '150 kWh/annum', 239, 'blue', '79db', 'A+');
-
-  $lavasciuga2->caricamento = 'Frontale';
-  var_dump($lavasciuga2);
 
 
  ?>

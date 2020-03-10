@@ -17,6 +17,6 @@
       $this->colore = $colore;
     }
   }
-  $frigorifero = new Elettrodomestici ('Bosch','365 kWh/annum', 750, 'argento');
-  var_dump($frigorifero);
+  // $frigorifero = new Elettrodomestici ('Bosch','365 kWh/annum', 750, 'argento');
+  // var_dump($frigorifero);
 ?>

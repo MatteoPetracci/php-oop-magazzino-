@@ -4,6 +4,7 @@
     public $consumo;
     public $prezzo;
     public $colore;
+    public $acquirenti;
     // Costruttore
     public function __construct($marca, $consumo, $prezzo, $colore)
     {
@@ -15,6 +16,9 @@
       $this->consumo = $consumo;
       $this->prezzo = $prezzo;
       $this->colore = $colore;
+    }
+    public function nomePagante() {
+      return $this->acquirenti;
     }
   }
   // $frigorifero = new Elettrodomestici ('Bosch','365 kWh/annum', 750, 'argento');
